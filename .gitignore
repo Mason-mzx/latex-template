@@ -1,0 +1,31 @@
+# LaTeX 编译中间文件
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+*.synctex(busy)
+
+# 个人简历文件（不提交）
+Chinese.tex
+Chinese.pdf
+
+# 其他临时文件
+missfont.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 只保留模板文件
+# 上传：Chinese-template.tex, Chinese-template.pdf, photo.jpg, README.md
